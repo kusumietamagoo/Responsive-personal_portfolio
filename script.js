@@ -49,7 +49,8 @@ ScrollReveal().reveal(".home-content p,.about-content", { origin: "right" });
 
 const typed = new Typed(".multiple-text", {
   strings: [
-    "CSE Student at Amity University",
+    "Computer Science and Eng Graduate",
+    "Passionate Coder",
     "AI/ML Enthusiast",
     "Content Writer",
   ],
