@@ -49,12 +49,14 @@ ScrollReveal().reveal(".home-content p,.about-content", { origin: "right" });
 
 const typed = new Typed(".multiple-text", {
   strings: [
-    "Computer Science and Eng Graduate",
+    "Computer Science and Engineering Graduate",
     "Passionate Coder",
     "AI/ML Enthusiast",
+    "Problem Solver",
+    "Innovation Addict",
     "Content Writer",
   ],
-  typeSpeed: 100,
+  typeSpeed: 120,
   backSpeed: 100,
   backDelay: 1000,
   loop: true,
