@@ -56,8 +56,8 @@ const typed = new Typed(".multiple-text", {
     "Innovation Addict",
     "Content Writer",
   ],
-  typeSpeed: 120,
-  backSpeed: 100,
-  backDelay: 1000,
+  typeSpeed: 150,
+  backSpeed: 150,
+  backDelay: 900,
   loop: true,
 });
