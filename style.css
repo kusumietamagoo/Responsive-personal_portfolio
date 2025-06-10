@@ -83,10 +83,10 @@
 }
 
 .home-img img {
-  width: 300px;
-  height: auto;
-  border-radius: 50%;
+  width: 350px;
+  height: 450px;
   object-fit: cover;
+  border-radius: 0;
 }
 
  @keyframes floatImage{
