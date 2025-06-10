@@ -74,16 +74,20 @@
     display: none;
  }
 
- .home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+ .home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
 
- .home-img img{
-    width:35vw ;
-    animation: floatImage 4s ease-in-out infinite;
- }
+.home-img img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
  @keyframes floatImage{
    0%{
