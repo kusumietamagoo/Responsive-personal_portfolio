@@ -136,13 +136,17 @@
   margin: 3rem 1.5rem 3rem 0;
   transition: .5s ease;
 }
-
+ .social-media a:hover{
+    background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+ }
 .leetcode-icon {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 4rem;
+  height: 4rem;
   background: transparent;
   border: 0.2rem solid var(--main-color);
   border-radius: 50%;
@@ -154,7 +158,6 @@
   width: 2rem;
   height: 2rem;
   object-fit: contain;
-  filter: brightness(0) invert(1); /* ensures visibility on dark background */
 }
 
 .leetcode-icon:hover {
@@ -163,14 +166,9 @@
 }
 
 .leetcode-icon:hover img {
-  filter: brightness(1) invert(0); /* revert color on hover */
+  filter: brightness(0) saturate(100%) invert(10%) sepia(100%) saturate(6000%) hue-rotate(180deg) brightness(95%) contrast(100%);
 }
 
- .social-media a:hover{
-    background: var(--main-color);
-    color: var(--second-bg-color);
-    box-shadow: 0 0 1rem var(--main-color);
- }
 
  .btn {
     display: inline-block;
