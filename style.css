@@ -252,6 +252,50 @@
    font-size: 1.6rem;
    margin: 1rem 0 3rem;
  }
+.experience {
+  padding: 60px 10%;
+  background: #1f242d;
+  color: #fff;
+}
+
+.experience .heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-box {
+  background: #323946;
+  padding: 20px;
+  border-left: 5px solid #0ef;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.experience-box h3 {
+  font-size: 1.8rem;
+  color: #0ef;
+  margin-bottom: 5px;
+}
+
+.experience-box .duration {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.experience-box .description {
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
  .portfolio{
    background: var(--second-bg-color);
  }
