@@ -267,12 +267,12 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 .experience-box h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #0ef;
   margin-bottom: 5px;
 }
 .experience-box .duration {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: #ccc;
   margin-bottom: 10px;
 }
