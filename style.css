@@ -449,17 +449,26 @@ span {
    color: var(--second-bg-color);
 }
 
+/* Theme Background Overrides */
+
 .pink-theme,
 .pink-theme .experience-container,
 .pink-theme .experience-box {
-  background-color: var(--second-bg-color);
+  background-color: var(--second-bg-color) !important;
 }
 
 .lilac-theme,
 .lilac-theme .portfolio-container,
 .lilac-theme .portfolio-box {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color) !important;
 }
+
+/* Optional: Ensure text color inside boxes follows theme */
+.pink-theme .experience-box,
+.lilac-theme .portfolio-box {
+  color: var(--text-color);
+}
+
 
 
 
