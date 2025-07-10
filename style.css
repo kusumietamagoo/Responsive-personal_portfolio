@@ -449,6 +449,19 @@ span {
    color: var(--second-bg-color);
 }
 
+.pink-theme,
+.pink-theme .experience-container,
+.pink-theme .experience-box {
+  background-color: var(--second-bg-color);
+}
+
+.lilac-theme,
+.lilac-theme .portfolio-container,
+.lilac-theme .portfolio-box {
+  background-color: var(--bg-color);
+}
+
+
 
 @media (max-width:1200px){
    html{
