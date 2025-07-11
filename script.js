@@ -47,6 +47,22 @@ ScrollReveal().reveal(
 ScrollReveal().reveal(".home-content h1,.about-img", { origin: "left" });
 ScrollReveal().reveal(".home-content p,.about-content", { origin: "right" });
 
+document.addEventListener("DOMContentLoaded", () => {
+  VANTA.GLOBE({
+    el: "#animated-bg",
+    mouseControls: true,
+    touchControls: true,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.0,
+    scaleMobile: 1.0,
+    color: 0xff69b4,      // hot pink
+    color2: 0xc8a2c8,     // lilac
+    backgroundColor: 0x111111
+  });
+});
+
+
 const typed = new Typed(".multiple-text", {
   strings: [
     "Computer Science and Engineering Graduate",
