@@ -390,6 +390,21 @@ span {
 }
 
 
+
+<script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+<script>
+  VanillaTilt.init(document.querySelectorAll(".portfolio-box"), {
+    max: 15,
+    speed: 400,
+    glare: true,
+    "max-glare": 0.3,
+  });
+</script>
+
+
+
+
+
 .contact h2{
    margin-bottom: 3rem;
 }
