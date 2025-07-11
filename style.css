@@ -27,6 +27,8 @@
 .lilac-theme {
   --main-color: var(--main-color-lilac);
   background-color: var(--bg-color);
+   background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+  background-repeat: repeat;
 }
 
 html {
