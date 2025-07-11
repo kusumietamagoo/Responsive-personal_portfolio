@@ -466,6 +466,8 @@ span {
 .lilac-theme .portfolio-container,
 .lilac-theme .portfolio-box {
   background-color: var(--bg-color) !important;
+   background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+  background-repeat: repeat;
 }
 
 /* Optional: Ensure text color inside boxes follows theme */
