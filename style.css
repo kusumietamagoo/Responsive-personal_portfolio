@@ -282,25 +282,28 @@ span {
   gap: 2rem;
 }
 .experience-box {
-  background: #323946;
+  background: var(--second-bg-color);
   padding: 20px;
-  border-left: 5px solid #0ef;
+  border-left: 5px solid var(--main-color);  /* dynamic */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: border-left 0.3s ease;
 }
 .experience-box h3 {
   font-size: 3rem;
-  color: #0ef;
+  color: var(--main-color);  /* dynamic */
   margin-bottom: 5px;
 }
+
 .experience-box .duration {
   font-size: 1.5rem;
   color: #ccc;
   margin-bottom: 10px;
 }
+
 .experience-box .description {
   font-size: 2rem;
-  color: #e0e0e0;
+  color: var(--text-color);  /* dynamic text color */
   line-height: 1.6;
 }
 
