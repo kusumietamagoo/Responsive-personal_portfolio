@@ -144,7 +144,7 @@ section {
 .home-content h3 {
   font-size: 3.2rem;
   font-weight: 700;
-  text-shadow: 0 0 10px var(--main-color), 0 0 20px var(--main-color);
+/*   text-shadow: 0 0 10px var(--main-color), 0 0 20px var(--main-color); */
 }
 
 .home-content h3:nth-of-type(2) {
