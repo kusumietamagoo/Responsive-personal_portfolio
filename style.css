@@ -66,7 +66,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .header.sticky {
@@ -113,6 +113,7 @@ section {
   align-items: center;      /* Center vertically */
   min-height: 100vh;
   text-align: center;
+  padding: 10rem 5% 2rem;
   z-index: 1;
   overflow: hidden;
 }
@@ -120,15 +121,17 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+ width: 100vw;
+  height: 100vh;
   z-index: 0;
 }
 .home-content {
   position: relative;
-  z-index: 2;
-  color: var(--text-color);
-  max-width: 800px;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 3rem;
+  border-radius: 2rem;
+  backdrop-filter: blur(4px);
 }
 
 
